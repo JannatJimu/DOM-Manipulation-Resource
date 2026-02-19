@@ -1,0 +1,35 @@
+body{
+  display: flex;  
+  gap:4px;
+}
+
+.container,.container2{
+    width:400px;
+    /* margin:50px auto; */
+    padding: 4px;
+    border:2px solid blue ;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 50px auto;
+
+}
+#main-heading{
+    padding-bottom: 6px;
+    text-align: center;
+    color:darkblue;
+    border-bottom: 1px solid brown;
+}
+li{
+    background-color: beige;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+li:hover {
+    background-color: lightblue;
+    transform: scale(1.03);
+   transform: translateX(20px);
+}
